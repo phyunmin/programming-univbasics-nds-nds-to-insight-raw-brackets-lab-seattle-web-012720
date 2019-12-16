@@ -20,6 +20,7 @@ def directors_totals(nds)
   # Be sure to return the result at the end!
   result = {}
   pp directors_database[0][:name]
+  pp directors_database[0][:movies]
   pp directors_database[0][:movies][0]
   pp directors_database[0][:movies][0][:worldwide_gross]
   row_index = 0
