@@ -23,7 +23,11 @@ def directors_totals(nds)
   pp directors_database[0][:movies][0]
   row_index = 0
   while row_index < directors_database.length do
-    
+    col_index = 0
+    while col_index < directors_database[row_index][:movies].length do
+      total_gross += directors_database[row_index][:movies][col_index][:worldwide_gross]
+      col_index += 1
+    end
     row_index += 1
   end
   result[directors_database[0][:name]]=1
