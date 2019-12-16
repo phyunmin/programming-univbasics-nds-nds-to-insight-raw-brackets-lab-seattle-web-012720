@@ -20,7 +20,7 @@ def directors_totals(nds)
   # Be sure to return the result at the end!
   result = {}
   pp directors_database[0][:name]
-  director1 = directors_database[0][:name]
-  result
+  director1 = 
+  result[directors_database[0][:name]]=>"1"
   return result
 end
