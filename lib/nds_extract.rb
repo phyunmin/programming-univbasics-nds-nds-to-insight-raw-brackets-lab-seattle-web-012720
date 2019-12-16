@@ -21,5 +21,6 @@ def directors_totals(nds)
   result = {}
   pp directors_database[0][:name]
   director1 = directors_database[0][:name]
+  result
   return result
 end
