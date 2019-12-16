@@ -19,7 +19,7 @@ def directors_totals(nds)
   #
   # Be sure to return the result at the end!
   result = {}
-  pp directors_database
+  pp directors_database[0][:name]
   
   return result
 end
